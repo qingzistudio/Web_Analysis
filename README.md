@@ -3,19 +3,19 @@ Including all tasks to extract information from website, quantitative analytic t
 
 ## Grasp information from websites
 
-### File - Douban_Pageselecting.py
+#### File - Douban_Pageselecting.py
 
 I planed to grasp moive information from douban.com according to the rates, then listed the output that combines web addresses of moives and rates. 
 
-### File - Get_August_Customer_Reviews.py
+#### File - Get_August_Customer_Reviews.py
 
 The objective of the program is to grasp customers' reviews which wrote at August.
 
-### File - Frequency_A_Author_Is_Quoted.py
+#### File - Frequency_A_Author_Is_Quoted.py
 
 How many times are one author quoted under a post? 
 
-### File - Reviews_More_Than_1000.py
+#### File - Reviews_More_Than_1000.py
 
 Collected at least 1000 TV reviews from a websites, like Amazon or Bestbuy, then stored all the reviews in a single file.
 
