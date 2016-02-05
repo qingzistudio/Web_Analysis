@@ -1,5 +1,5 @@
 # Web_Analysis
-##### Including all tasks to extract information from website, quantitative analytic technologies across multiple business domains,and sentiment analysis
+#### Including all tasks to extract information from website, quantitative analytic technologies across multiple business domains,and sentiment analysis
 
 =================================================================================
 
@@ -22,6 +22,7 @@ How many times are one author quoted under a post?
 Collected at least 1000 TV reviews from a websites, like Amazon or Bestbuy, then stored all the reviews in a single file.
 
 Steps:
+
 1. List all links with the amount of reviews are more than 400. Select_Reviews_More_Than_400.py designs a step that collects all addresses and products.
 
 2. Write down 3 functions to grab information like the full reviews, rates and submission dates. 
@@ -29,6 +30,7 @@ Steps:
 3. Use a loop for traversing the 3 links and append newly grabbing information to each list.
 
 Problems:
+
 1. The overrate and customer’s rates share the same HTML tag on each review page
 
 2. If a customers wrote down 2 or more paragraphs, more details will be involved in our processing.
@@ -50,6 +52,7 @@ Our emotion dictionary contains words with their emotions: anger, anticipation, 
 After doing pos tagging on the tokenized sentences to select Nones, then counted the frequency of each none associated with emotions. The output denotes that the 20 most frequent nonus for each emotion. For example, sugar is associated with joy 36 times, which means people write sugar in a post, he/ she is in good mood.
 
 the output likes:
+
 Emotion:Anger	time	Frequency:50
 Emotion:Anger	month	Frequency:50
 Emotion:Anger	day	Frequency:50
